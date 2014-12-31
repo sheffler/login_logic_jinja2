@@ -1,0 +1,7 @@
+$ sqlite3 db/test.sqlite
+CREATE TABLE Users ( ID INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT, password TEXT );
+INSERT INTO Users (username, password) VALUES ("user1", "pass1");
+INSERT INTO Users (username, password) VALUES ("user2", "pass2");
+INSERT INTO Users (username, password) VALUES ("user3", "pass3");
+INSERT INTO Users (username, password) VALUES ("user4", "pass4");
+SELECT * FROM Users;

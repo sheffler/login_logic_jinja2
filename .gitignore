@@ -1,0 +1,26 @@
+.DS_Store
+log/*
+tmp
+tmp/**/*
+tmp/.tasks-cache
+config/database.yml
+db/*.sqlite3
+nbproject/*
+TAGS
+coverage
+tags
+db/schema.rb
+#ignore emacs and vim temp files
+*~
+\#*#
+\#*#
+\.\#*
+.bundle
+app/controllers/api2/.yardoc/*
+app/controllers/api2/doc/*
+app/controllers/api2/pubdoc/*
+lib/utils/haxe/player/com/*
+lib/utils/haxe/player/flash_swc/*
+*.pyc
+python/twisted/plugins/dropin.cache
+*.dec
